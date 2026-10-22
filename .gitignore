@@ -1,0 +1,20 @@
+# 数据文件体积大，运行脚本可重新生成
+data/
+data_all/
+*.part
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 报告里的原始 csv 结果（图表和文字报告保留）
+reports*/*.csv
+reports*/*/*.csv
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
